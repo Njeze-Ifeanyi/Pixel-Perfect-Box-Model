@@ -79,3 +79,19 @@ body {
   font-size: 14px;
   color: #94a3b8;
 }
+
+@media (max-width: 800px) {
+    
+  .top-page {
+    flex-direction: row;          
+    justify-content: space-between; 
+    gap: 0;
+  }
+
+  .top-page .nav-bar {
+    flex-direction: row;           
+    justify-content: flex-end;
+    gap: 24px;
+    width: auto;
+  }
+}
